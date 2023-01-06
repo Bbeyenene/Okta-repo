@@ -14,6 +14,6 @@ export default {
     disableHttpsCheck: OKTA_TESTING_DISABLEHTTPSCHECK,
   },
   resourceServer: {
-    messagesUrl: 'http://localhost:8000/api/messages',
+    messagesUrl: 'https://jsonplaceholder.typicode.com/todos',
   },
 };
